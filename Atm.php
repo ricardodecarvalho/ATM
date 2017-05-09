@@ -7,6 +7,9 @@ namespace Atm;
  *
  * Algorithm simulating an ATM.
  *
+ * @Author Ricardo de Carvalho <skapitao@gmail.com>
+ * @url ricardodecarvalho.com
+ * 
  */
 
 class Atm
@@ -76,7 +79,7 @@ class Atm
             throw new \RuntimeException('REQUIRED VALUE EXCEEDING THE DAILY LIMIT');
         }
     }
-    
+
     private function checkBalance()
     {
         if($this->requested > $this->balance){
@@ -100,6 +103,3 @@ class Atm
     }
 
 }
-
-$atm = new Atm();
-var_dump($atm->cashOut('80'));
