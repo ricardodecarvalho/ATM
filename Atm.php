@@ -101,5 +101,4 @@ class Atm
             throw new \RuntimeException('VALUE REQUESTED IS NOT VALID');
         }
     }
-
 }
