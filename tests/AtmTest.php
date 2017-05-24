@@ -1,7 +1,5 @@
 <?php
 
-require __DIR__ . '/Atm.php';
-
 /**
  * Class AtmTest
  */
