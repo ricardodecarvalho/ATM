@@ -4,7 +4,6 @@ php:
   - 5.4
   - 5.5
   - 5.6
-  - hhvm
 
 before_script:
   - wget https://phar.phpunit.de/phpunit.phar
@@ -16,4 +15,4 @@ script:
   - Atm.php
 
 after_script:
-  - phpunit AtmTest.php
+  - phpunit tests/AtmTest.php
