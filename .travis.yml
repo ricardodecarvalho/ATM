@@ -12,7 +12,4 @@ before_script:
   - phpunit --version
 
 script:
-  - Atm.php
-
-after_script:
   - phpunit tests/AtmTest.php
