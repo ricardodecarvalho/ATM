@@ -1,5 +1,7 @@
 <?php
 
+require '../Atm.php';
+
 /**
  * Class AtmTest
  */
